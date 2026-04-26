@@ -1,0 +1,36 @@
+# ─── UI ───────────────────────────────────────────────────────────────────────
+PyQt5==5.15.10
+PyQt5-sip==12.13.0
+
+# ─── LLM / Inference ──────────────────────────────────────────────────────────
+ollama==0.3.3
+requests==2.31.0
+
+# ─── Desktop Control ──────────────────────────────────────────────────────────
+pyautogui==0.9.54
+Pillow>=10.4.0
+
+# ─── Web / Scraping ───────────────────────────────────────────────────────────
+selenium==4.21.0
+webdriver-manager==4.0.1
+beautifulsoup4==4.12.3
+lxml==5.2.1
+
+# ─── Voice ────────────────────────────────────────────────────────────────────
+SpeechRecognition==3.10.4
+# PyAudio is installed separately in setup.bat (no Python 3.14 wheel on PyPI yet)
+pyttsx3==2.90
+elevenlabs==1.3.0
+
+# ─── NLP / Skill Relevance Scoring ────────────────────────────────────────────
+scikit-learn==1.5.0
+numpy==1.26.4
+
+# ─── Code Analysis ────────────────────────────────────────────────────────────
+pyflakes==3.2.0
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+python-dotenv==1.0.1
+psutil==5.9.8
+sounddevice==0.4.7
+soundfile==0.12.1
